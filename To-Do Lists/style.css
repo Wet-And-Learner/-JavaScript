@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(229deg, rgb(209, 205, 191), rgba(114, 114, 155, 0.296));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container{
+    margin-left: 100px;
+    width: 700px;
+    height: 500px;
+    background: linear-gradient(229deg, rgb(205, 180, 194) , rgba(194, 163, 198, 0.2));
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.head{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.new-activity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.input-activity{
+    width: 60%;
+    height: 100%;
+    margin: 0px 10px;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    padding: 0px 10px;
+    font-family: inherit;
+}
+
+.add-activity{
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+    width: 90px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: whitesmoke;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.add-activity:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
+
+.added-activities{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newDiv{
+    width: 90%;
+    height: auto;
+    margin: 5px 0px;
+    padding: 5px 10px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 10px;
+}
