@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(229deg, rgba(187,156,226,1) , rgba(231,218,233,0.29566412746739323));
+}
+
+.maincontainer{
+    width: 350px;
+    height: 500px;
+    background-color: #2a2438;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.interface{
+    width: 95%;
+    height: 95%;
+    background-color:#385170;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.displayscreen{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row button{
+    font-size: 15px;
+    font-weight: bold;
+    width: 70px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 20px; 
+    box-shadow: none;   
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.row button:hover{
+    box-shadow: none;    
+}
+
+.keys{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: auto;
+    justify-content: space-between;
+    margin: 50px;
+    margin-top: 20px;
+}
